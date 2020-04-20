@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title id="tab_name">Thank You!</title>
+  <script src="https://bootstrapcreative.com/wp-bc/wp-content/themes/wp-bootstrap/codepen/bootstrapcreative.js?v=1"></script>
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css'>
+
+  
+  
+</head>
+
+<body onload= "getInfo()">
+
+  <div class="fullgrey">
+  <div class="jumbotron text-xs-center">
+  <h1 id="title" class="display-3"></h1>
+  <p id="message" class="lead"><strong>Please check your email</strong> for further instructions on how to complete your account setup.</p>
+  <hr>
+        <div class="button_search">
+          <button type="button" class="button_text" onclick="yelpReview()">
+            <input type="button" class="button_text">
+                Yelp Review
+            </input>
+            </button>
+        </div>
+        <div class="button_search">
+          <button type="button" class="button_text" onclick="googleReview()">
+            <input type="button" class="button_text">
+                Google Review
+            </input>
+            </button>
+        </div>
+        <div class="button_search">
+          <button type="button" class="button_text" onclick="opentableReview()">
+            <input type="button" class="button_text">
+                Open Table Review
+            </input>
+           </button>
+        </div>
+    </div>
+    </div>
+
+  <!-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script> -->
+<!-- <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js'></script> -->
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apigClient.js"></script>
+    <script type="text/javascript" src="logic.js"></script>
+
+
+  
+
+</body>
+
+</html>
