@@ -28,7 +28,7 @@ def lambda_handler(event, context):
         #     'statusCode': 200,
         #     'body': 'Authentication Failure'
         # }
-        rest_number = '+14153407579'
+        rest_number = 'RESTAURANT-ID'
         
     #access message data 
     # rest_number = event["restaurant_id"]
