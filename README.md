@@ -5,6 +5,7 @@
 - [Abstract](#abstract)
 - [Introduction](#introduction)
 - [Architecture](#architecture)
+    - [Lambdas in use](##lambdas-in-use)
 - [Implementation](#implementation)
 
 ## Abstract
