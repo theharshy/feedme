@@ -9,9 +9,9 @@ from boto3.dynamodb.conditions import Key
 from urllib import request, parse
 
 def lambda_handler(event, context):
-    TWILIO_SMS_URL = "https://api.twilio.com/2010-04-01/Accounts/{}/Messages.json"
-    TWILIO_ACCOUNT_SID = 'ACe8d1739b569024eb94d016e05dfd308d'
-    TWILIO_AUTH_TOKEN = '2aa7d60604b29465c8d29339dbc27305'
+    TWILIO_SMS_URL = 'YOUR-TWILIO-URL'
+    TWILIO_ACCOUNT_SID = 'YOUR-TWILIO-SID'
+    TWILIO_AUTH_TOKEN = 'YOUR-TWILIO-TOKEN'
     populated_url = TWILIO_SMS_URL.format(TWILIO_ACCOUNT_SID)
     
     print(event)
