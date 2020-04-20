@@ -11,6 +11,10 @@
 -[Results](#results)
 -[Conclusion](#conclusion)
 
+
+
+    
+
 ## Abstract
 
 As restaurants increasingly move towards prioritizing delivery across delivery services, there is a growing need to effectively facilitate customer engagement. Restaurant SEO is heavily based upon review count and overall reviews. Unfortunately, each delivery service has its own app for customer engagement and none of them heavily focus on guiding restaurant goers to leave reviews. This would require using 5 logins for 1 restaurant to handle customer engagement for a single branch, 10 logins for 2 branches and so on. There are three goals of FeedMe: 1) centralize user engagement through the development of aggregated feeds across all delivery platforms and for all branches of a single restaurant, 2) spur increased review numbers through sending restaurant goers automated messages with tailored links associated with the review sites alongside a nice message, and 3) create a web-based chatting service that can communicate with restaurant goers through text messages (we also hope to allow for group chats to allow for mass marketing messaging for delivery coupons or new menu updates). We’ve created the initial version of the application using our cloud architecture and are excited to share it with you.
