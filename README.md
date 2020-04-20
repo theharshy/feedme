@@ -7,7 +7,7 @@
 - [Architecture](#architecture)
 - [Implementation](#implementation)
     - [Lambdas in use](#lambdas-in-use)
-    - [API Gateway Design] (#api-gateway-design)
+    - [API Gateway Design](#api-gateway-design)
 
 - [Results](#results)
 - [Conclusion](#conclusion)
