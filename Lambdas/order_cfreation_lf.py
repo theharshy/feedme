@@ -56,13 +56,13 @@ def lambda_handler(event, context):
         add_action(action_table, customer_number, order_date, order_id)
         
         #send twilio message with proper link
-        TWILIO_SMS_URL = "https://api.twilio.com/2010-04-01/Accounts/{}/Messages.json"
-        TWILIO_ACCOUNT_SID = 'ACe8d1739b569024eb94d016e05dfd308d'
-        TWILIO_AUTH_TOKEN = '2aa7d60604b29465c8d29339dbc27305'
+        TWILIO_SMS_URL = "YOUR-TWILIO-SMS-URL"
+        TWILIO_ACCOUNT_SID = 'YOUR-TWILIO-ACCOUNT-SID'
+        TWILIO_AUTH_TOKEN = 'YOUR-TWILIO-AUTH-TOKEN'
         populated_url = TWILIO_SMS_URL.format(TWILIO_ACCOUNT_SID)
         
         populated_url = TWILIO_SMS_URL.format(TWILIO_ACCOUNT_SID)
-        link = "https://cloudcomputingprojectreviewerbucket.s3.amazonaws.com/index.html?order_id={}".format(order_id)
+        link = "YOUR-WEBSITE-HOMEPAGE?order_id={}".format(order_id)
         msg_body = "Thanks for choosing {} for your meal, {}. We love to hear from our loyal patrons! Feel free to respond to this text message and we'll get back to you ASAP. We'd for you to leave us a review at: {}".format(restaurant_name, customer_name, link)
         post_params = {"To": customer_number, "From": restaurant_number, "Body": msg_body}
         data = parse.urlencode(post_params).encode()
