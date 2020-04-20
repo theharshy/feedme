@@ -5,8 +5,11 @@
 - [Abstract](#abstract)
 - [Introduction](#introduction)
 - [Architecture](#architecture)
-    - [Lambdas in use](##lambdas-in-use)
 - [Implementation](#implementation)
+    - [Lambdas in use](#lambdas-in-use)
+    - [API gateway design](#api-gateway-design)
+-[Results](#results)
+-[Conclusion](#conclusion)
 
 ## Abstract
 
